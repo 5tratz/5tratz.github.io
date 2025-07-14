@@ -1,8 +1,34 @@
-title: Just the Docs Template
+title: 5traz
 description: A starter template for a Jeykll site using the Just the Docs theme!
-remote_theme: just-the-docs/just-the-docs@v0.5.2
+theme: just-the-docs
+# Color scheme supports "light" (default) and "dark"
+# color_scheme: dark
+color_scheme: sublayer
 
-url: https://just-the-docs.github.io
+url: https://5tratz.github.io
+favicon_ico: "/assets/images/favicon.ico"
 
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"
+  
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Sublayer.com: https://sublayer.com
+  Github: https://github.com/sublayerapp/sublayer
+  Rubygems: https://rubygems.org/gems/sublayer
+
+aux_links_new_tab: true
+  
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/5tratz/5tratz.github.io"
+gh_edit_branch: "main"
+gh_edit_source: ""
+gh_edit_view_mode: "tree"
+
+footer_content: "Copyright &copy; 2025 5tratz, Inc. All rights reserved."
